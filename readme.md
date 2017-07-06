@@ -30,45 +30,19 @@ Esta API foi criada com o intuito de estudar mais o conceito de API com acesso v
 
 # Rotas
 Essas são as `rotas` do projeto :
-![alt text](http://imgur.com/Wy6J6aN)
+![rotas](https://user-images.githubusercontent.com/14933271/27928216-b0873182-6264-11e7-9683-b160bc0eabcc.png)
 
 > Observação : todas as rotas que estão com middleware jwt-auth você irá precisar do token de acesso para utilizá-la.
 # Exemplos de como utilizar as rotas no POSTMAN
 - Lembrando que todas as rotas estão prefixadas com /api
 
 > Cadastro de usuário `/api/users` método `POST`
-![alt text](http://imgur.com/S7mFcVw)
+![cadastro_usuario](https://user-images.githubusercontent.com/14933271/27928217-b089935a-6264-11e7-941d-8042b56124a7.png)
 
 > Login para acessar token `/api/auth/login` método `POST`, basta passar os parâmetros
-![alt text](http://imgur.com/ptA1n9Z)
+![token_login](https://user-images.githubusercontent.com/14933271/27928218-b08aa59c-6264-11e7-8df5-83f4b4fd3d57.png)
 
 > Utilização do token(cadastrando um pokemon) `/api/pokemons` método `POST` **Utilize os parâmetros
-![alt text](http://imgur.com/GAllNo2)
+![utilizando_token](https://user-images.githubusercontent.com/14933271/27928219-b08ad2ec-6264-11e7-9b54-52e6f53b7a8b.png)
 
 # Laravel PHP Framework
-
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
