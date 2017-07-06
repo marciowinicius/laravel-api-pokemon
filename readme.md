@@ -30,20 +30,20 @@ Esta API foi criada com o intuito de estudar mais o conceito de API com acesso v
 
 # Rotas
 Essas são as `rotas` do projeto :
-![alt text](https://github.com/marciowinicius/laravel-api-pokemon/images_git/rotas.png)
+![alt text](http://imgur.com/Wy6J6aN)
 
 > Observação : todas as rotas que estão com middleware jwt-auth você irá precisar do token de acesso para utilizá-la.
 # Exemplos de como utilizar as rotas no POSTMAN
 - Lembrando que todas as rotas estão prefixadas com /api
 
 > Cadastro de usuário `/api/users` método `POST`
-![alt text](https://github.com/marciowinicius/laravel-api-pokemon/images_git/cadastro_usuario.png)
+![alt text](http://imgur.com/S7mFcVw)
 
 > Login para acessar token `/api/auth/login` método `POST`, basta passar os parâmetros
-![alt text](https://github.com/marciowinicius/laravel-api-pokemon/images_git/token_login.png)
+![alt text](http://imgur.com/ptA1n9Z)
 
 > Utilização do token(cadastrando um pokemon) `/api/pokemons` método `POST` **Utilize os parâmetros
-![alt text](https://github.com/marciowinicius/laravel-api-pokemon/images_git/utilizando_token.png)
+![alt text](http://imgur.com/GAllNo2)
 
 # Laravel PHP Framework
 
